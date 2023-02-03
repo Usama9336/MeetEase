@@ -19,7 +19,7 @@ zp.joinRoom({
 })
 }
     return (
-    <div className='bg-gradient-to-r from-sky-500 to-indigo-500' ref={meeting} style={{width:"100vw",height:"100vh" }}>
+    <div className='sm:bg-gradient-to-r from-sky-500 to-indigo-500' ref={meeting} style={{width:"100vw",height:"100vh" }}>
     </div>
   )
 }
