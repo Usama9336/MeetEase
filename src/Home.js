@@ -26,7 +26,7 @@ navigate(`/room/${roomcode}`) ;
         <input type="text" required placeholder="Enter any code" value={roomcode}
         onChange={(e)=>setroomcode(e.target.value)}
         className="bg-orange-500 placeholder:text-[white] py-2 w-[16rem] rounded-full pl-8 outline-0 mt-3" />
-        <button type='submit' className='bg-blue-500 rounded-[4px] font-semibold mt-4 py-1.5 px-4 hover:opacity-[70]'>Get Started</button>
+        <button type='submit' className='bg-blue-500 rounded-[4px] font-semibold mt-4 py-1.5 px-4 hover:opacity-[70%]'>Get Started</button>
         </form>
       </div>
         
