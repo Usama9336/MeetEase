@@ -5,10 +5,10 @@ import { useParams } from 'react-router-dom'
 export default function Room() {
     const {roomid}=useParams();
 const meeting= async(element)=>{
-    const appID=1829571097;
-    const serverSecret="6ae78a2c10e98386aab4de8d2a348369";
+    const appID=1154001292;
+    const serverSecret="7d6f49fcf44ec1b2720279fe1b193226";
     const kitToken=ZegoUIKitPrebuilt.generateKitTokenForTest(      appID,serverSecret,roomid,Date.now().toString(),
-        "usama"
+        "VidEz"
     )
 const zp=ZegoUIKitPrebuilt.create(kitToken);
 zp.joinRoom({

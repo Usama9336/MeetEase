@@ -6,7 +6,7 @@ export default function Navbar() {
         <div className=" flex items-center pt-4">
             <img src={video} alt="" className='object-cover w-[3.5rem] h-[3.5rem] rounded-[10px] sm:object-cover sm:w-[4rem] sm:h-[4rem] sm:rounded-[10px]'/>
             <div className='text-[white]'>
-            <p className='text-[15px] sm:text-[25px] font-semibold pl-2'>Meeting App</p>
+            <p className='text-[15px] sm:text-[25px] font-semibold pl-2'>MeetEase</p>
         </div>
         </div>
         <div className="pt-4">
