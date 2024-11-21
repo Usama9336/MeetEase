@@ -39,7 +39,9 @@ npm start
 Open in Browser
 
 Navigate to http://localhost:3000 to access the application.
+
 Technologies Used 🛠️
+
 Frontend: React.js, Tailwind CSS
 Backend: Node.js, Express.js
 Database: MongoDB
