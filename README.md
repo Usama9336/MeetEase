@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+MeetEase - Video Chat & Call App 🎥📞
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MeetEase is a web-based application that allows users to join or create video meetings effortlessly using a room code. The platform supports screen sharing and a public chat box for seamless collaboration during meetings.
 
-## Available Scripts
 
-In the project directory, you can run:
+Features ✨
 
-### `npm start`
+Join or Create Meetings: Users can create or join a meeting by entering any room code, e.g., 123.
+Screen Sharing: Share your screen with other participants during meetings for effective collaboration.
+Public Chat Box: Communicate with participants through a real-time public chat feature.
+Optimized Video Flow: High-quality video conferencing powered by ZegoCloud.
+Getting Started 🚀
+Prerequisites
+Node.js installed on your system.
+MongoDB database setup for backend storage.
+ZegoCloud API key for video and chat functionality.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Installation
+Clone the Repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+git clone https://github.com/your-username/meetease.git
+cd meetease
+Install Dependencies
 
-### `npm test`
+bash
+Copy code
+npm install
+Set Up ZegoCloud
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Register on ZegoCloud.
+Obtain your API key and add it to the .env file.
+Run the Development Server
 
-### `npm run build`
+bash
+Copy code
+npm start
+Open in Browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Navigate to http://localhost:3000 to access the application.
+Technologies Used 🛠️
+Frontend: React.js, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+Video & Chat API: ZegoCloud API
+Styling: Tailwind CSS for responsive design
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Screenshots 📸
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Homepage:
 
-### `npm run eject`
+![image](https://github.com/user-attachments/assets/c5053ae4-90b7-403c-b562-77ba0ef6276a)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Meeting-Room page:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/user-attachments/assets/12d8e9e5-0b65-4649-94e7-4d828688dda9)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+How It Works 🛡️
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Enter Room Code: Input a numeric room code (e.g., 123) to create or join a meeting.
+Host or Join: Create the meeting if the room code doesn't exist or join the existing room.
+Interact: Share your screen, enable video/audio, and use the public chat box for discussions.
+Contributing 🤝
+We welcome contributions to improve MeetEase! Here’s how you can help:
 
-## Learn More
+Fork the repository.
+Create a feature branch:
+bash
+Copy code
+git checkout -b feature-name
+Commit your changes:
+bash
+Copy code
+git commit -m "Add feature or fix description"
+Push to your branch:
+bash
+Copy code
+git push origin feature-name
+Submit a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgments 🙌
+Thanks to ZegoCloud for providing the API for video and chat functionality.
+Inspired by the need for simple and reliable video meeting tools.
