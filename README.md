@@ -13,7 +13,7 @@ Getting Started 🚀
 Prerequisites
 Node.js installed on your system.
 MongoDB database setup for backend storage.
-ZegoCloud API key for video and chat functionality.
+ZegoCloud for video and chat functionality.
 
 Installation
 Clone the Repository
@@ -82,5 +82,5 @@ git push origin feature-name
 Submit a pull request.
 
 Acknowledgments 🙌
-Thanks to ZegoCloud for providing the API for video and chat functionality.
+Thanks to ZegoCloud for providing the video and chat functionality.
 Inspired by the need for simple and reliable video meeting tools.
