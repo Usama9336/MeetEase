@@ -1,4 +1,4 @@
-MeetEase - Video Chat & Call App 🎥📞
+MeetEase - Video Chat & Call App 🎥📞 [ AS I HAVE USED FREE ZEGOCLOUD ACCOUNT FOR DEVELOPING THIS PROJECT SO AFTER 1 MONTH IT EXPIRES SO I HAVE AGAIN MAKE NEW ACCOUNT ON IT THATS WHY SOMETIMES IT SHOWS ERROR AFTER CLICKING JOIN]
 
 MeetEase is a web-based application that allows users to join or create video meetings effortlessly using a room code. The platform supports screen sharing and a public chat box for seamless collaboration during meetings.
 
